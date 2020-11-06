@@ -1,6 +1,20 @@
 @font-face {
-  font-family: "Muli-Regular";
+  font-family: "Muli";
   src: url('Muli-Regular.ttf') format('truetype');
+  src: url('Muli-Black.ttf') format('truetype');
+  src: url('BlackItalic.ttf') format('truetype');
+  src: url('Muli-Bold.ttf') format('truetype');
+  src: url('BoldItalic.ttf') format('truetype');
+  src: url('SemiBoldItalic.ttf') format('truetype');
+  src: url('ExtraBold.ttf') format('truetype');
+  src: url('ExtraBoldItalic.ttf') format('truetype');
+  src: url('Muli-ExtraLight.ttf') format('truetype');
+  src: url('Muli-SemiBold.ttf') format('truetype');
+  src: url('Muli-Regular.ttf') format('truetype');
+  src: url('LightItalic.ttf') format('truetype');
+  src: url('Muli-Light.ttf') format('truetype');
+  src: url('Muli-Italic.ttf') format('truetype');
+  src: url('Muli-ExtraLightItalic.ttf') format('truetype');
 }
 
 * {
