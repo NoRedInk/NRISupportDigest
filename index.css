@@ -1,20 +1,6 @@
 @font-face {
   font-family: "Muli";
-  src: url(/Users/brendanduffy/Downloads/Muli/Muli-Regular.ttf) format('truetype');
-  src: url(/Users/brendanduffy/Downloads/Muli/Muli-Black.ttf) format('truetype');
-  src: url(/Users/brendanduffy/Downloads/Muli/Muli-BlackItalic.ttf) format('truetype');
-  src: url(/Users/brendanduffy/Downloads/Muli/Muli-Bold.ttf) format('truetype');
-  src: url(/Users/brendanduffy/Downloads/Muli/Muli-BoldItalic.ttf) format('truetype');
-  src: url(/Users/brendanduffy/Downloads/Muli/Muli-SemiBoldItalic.ttf) format('truetype');
-  src: url(/Users/brendanduffy/Downloads/Muli/Muli-ExtraBold.ttf) format('truetype');
-  src: url(/Users/brendanduffy/Downloads/Muli/Muli-ExtraBoldItalic.ttf) format('truetype');
-  src: url(/Users/brendanduffy/Downloads/Muli/Muli-ExtraLight.ttf) format('truetype');
-  src: url(/Users/brendanduffy/Downloads/Muli/Muli-SemiBold.ttf) format('truetype');
-  src: url(/Users/brendanduffy/Downloads/Muli/Muli-Regular.ttf) format('truetype');
-  src: url(/Users/brendanduffy/Downloads/Muli/Muli-LightItalic.ttf) format('truetype');
-  src: url(/Users/brendanduffy/Downloads/Muli/Muli-Light.ttf) format('truetype');
-  src: url(/Users/brendanduffy/Downloads/Muli/Muli-Italic.ttf) format('truetype');
-  src: url(/Users/brendanduffy/Downloads/Muli/Muli-ExtraLightItalic.ttf) format('truetype');
+  src: url(Muli-Regular.ttf) format('truetype');
 }
 
 * {
@@ -142,26 +128,75 @@ blockquote {
 .grid-container {
   display: grid;
   grid-template-columns: 75% 25%;
-  grid-template-rows: 50px;
+  grid-template-rows: auto auto auto auto auto auto;
   width: 70%;
 }
 
 .bug-grid-container {
   display: grid;
   grid-template-columns: 75% 25%;
-  grid-template-rows: 50px;
+  grid-template-rows: auto auto auto auto auto;
   width: 80%;
   margin-bottom: 10px;
 }
 
+.bug-grid-container div, .grid-container div, .video-grid-container div {
+  font-size: 15px;
+}
 
 .video-grid-container {
   display: grid;
   grid-template-columns: 60% 20% 20%;
-  grid-template-rows: 50px;
+  grid-template-rows: auto auto auto auto auto;
   width: 70%;
 }
 
-.number-grid{
+.number-grid {
   color: #F3336C;
+}
+
+@media only screen and (max-width: 400px) {
+  * {
+    margin: 10px;
+    line-height: 1.4;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  div {
+    font-size: 20px;
+  }
+
+  h1{
+    color: #004e95;
+    font-size: 32px;
+    text-align: center;
+  }
+
+  h2 {
+    color: #004e95;
+    font-size: 26px;
+    text-align: left;
+  }
+
+  h3 {
+    font-size: 24px;
+    text-align: left;
+  }
+
+  h4 {
+    font-size: 22px;
+    text-align: left;
+  }
+
+  a {
+    font-size: 20px;
+  }
+
+  li {
+    font-size: 20px;
+  }
+
 }
