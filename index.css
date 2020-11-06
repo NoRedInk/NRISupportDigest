@@ -63,6 +63,7 @@ li, a {
 a.header {
   color: white;
 }
+
 a.link {
   color: blue;
 }
@@ -81,7 +82,8 @@ blockquote {
   border-color: #004e95;
   background-color: white;
   padding: 2px 15px;
-  width: 1000px;
+  width: 900px;
+  margin: auto;
 }
 
 .headertext {
@@ -90,7 +92,8 @@ blockquote {
   border-color: #002e85;
   background-color: #002e85;
   padding: 2px 15px;
-  width: 1000px;
+  width: 900px;
+  margin: auto;
 }
 
 .headertext p {
@@ -150,6 +153,7 @@ blockquote {
   width: 80%;
   margin-bottom: 10px;
 }
+
 
 .video-grid-container {
   display: grid;
